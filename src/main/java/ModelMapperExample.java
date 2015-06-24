@@ -9,17 +9,17 @@ public class ModelMapperExample {
 
     public static void main(String[] args) {
         User user = createUser();
-        ModelMapper mapper = new ModelMapper();
-
         System.out.println("# Original user");
         System.out.println(user);
 
+        ModelMapper mapper = new ModelMapper();
+
         UserDTO userDTO = mapper.map(user, UserDTO.class);
-        System.out.println(">>> Original user converted to TO object");
+        System.out.println(">>> Original user converted to DTO object");
         System.out.println(userDTO);
 
         User user2 = mapper.map(userDTO, User.class);
-        System.out.println("<<< TO object converted back to User object");
+        System.out.println("<<< DTO object converted back to User object");
         System.out.println(user2);
     }
 
