@@ -2,8 +2,8 @@
 
 Example project to demonstrate how easy it is to map objects with [ModelMapper](http://modelmapper.org) and [Lombok](https://projectlombok.org).
 
-### Note
-Lombok requires to install an IDE plugin to compile in the IDE. You can also compile it with Maven: *mvn compile* (doesn't require any additional plugin) 
+### Note:
+Lombok requires to install a Lombok IDE plugin to compile in the code. You can also compile it with Maven: *mvn compile* (doesn't require any additional plugin) 
 
 ## Console output 
 ```
